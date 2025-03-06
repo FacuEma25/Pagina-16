@@ -201,10 +201,8 @@ main .line{
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 0 25px;
     position: relative;
-    /* background-color: var(--menu); */
-    background-color: black;
+    background-color: var(--menu);
     border-radius: 250px 250px 0 0;
 }
 
@@ -219,7 +217,7 @@ main .line{
     padding: 25px;
     border-radius: 50%;
     position: absolute;
-    top: 260px;
+    bottom: 200px;
 }
 
 .content-1 h2{
@@ -231,7 +229,7 @@ main .line{
 .content-1 p{
     font-size: 0.9rem;
     font-family: var(--font-general);
-    padding-bottom: 25px;
+    padding: 0 15px 25px 15px;
 }
 
 .btn-main{
